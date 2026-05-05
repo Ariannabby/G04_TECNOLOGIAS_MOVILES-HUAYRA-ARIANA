@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base Material 3 (esquema derivado de una semilla de color) -->
+    <style name="Base.Theme.Laboratorio06" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Roles de color principales (Material 3) -->
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer</item>
+        <!-- Roles de color secundarios -->
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer</item>
+        <!-- Superficie -->
+        <item name="colorSurface">@color/md_theme_surface</item>
+        <item name="colorOnSurface">@color/md_theme_onSurface</item>
+    </style>
+    <style name="Theme.Laboratorio06" parent="Base.Theme.Laboratorio06" />
+    <!-- Mantenemos el nombre por defecto si el proyecto lo usa -->
+    <style name="Theme.Parte_B" parent="Base.Theme.Laboratorio06" />
+</resources>
